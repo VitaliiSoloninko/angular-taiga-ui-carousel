@@ -1,0 +1,31 @@
+@import "@taiga-ui/core/styles/taiga-ui-local.less";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  inline-size: 22rem;
+  flex-shrink: 0;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  transition: box-shadow 0.3s, transform 0.3s;
+  display: block;
+  max-block-size: 30rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.item_active {
+  transform: scale(1.2);
+}
