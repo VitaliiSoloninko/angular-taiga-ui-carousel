@@ -8,21 +8,26 @@
 }
 
 .carousel {
-  inline-size: 22rem;
+  inline-size: 20rem;
   flex-shrink: 0;
 }
 
-.body {
+.buttons {
   display: flex;
-  justify-content: center;
+  width: 16rem;
+  justify-content: space-between;
   align-items: center;
+}
+
+.dots {
+  margin-bottom: 0.5rem;
 }
 
 .item {
   transition: box-shadow 0.3s, transform 0.3s;
   display: block;
   max-block-size: 30rem;
-  margin: 2rem auto;
+  margin: 2rem 0.5rem;
   border-radius: 1rem;
 }
 
