@@ -11,14 +11,6 @@
       />
     </ng-container>
   </tui-carousel>
-  <div class="dots">
-    <tui-pagination
-      size="s"
-      class="pagination"
-      [length]="items.length"
-      [(index)]="index"
-    />
-  </div>
 
   <div class="buttons">
     <button
@@ -29,7 +21,12 @@
     >
       Previous
     </button>
-
+    <tui-pagination
+      size="s"
+      class="pagination"
+      [length]="items.length"
+      [(index)]="index"
+    />
     <button
       iconStart="@tui.chevron-right"
       tuiIconButton
